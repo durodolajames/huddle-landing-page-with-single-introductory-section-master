@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  background-color: #674baf;
+  background-image: url(images/bg-desktop.svg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h2 {
+  width: 100%;
+  padding: 20px;
+}
+
+.butn {
+  padding: 20px;
+  border-radius: 30px;
+  width: 200px;
+  background-color: white;
+  color: #674baf;
+}
+
+.butn:hover {
+  background-color: #e882e8;
+  color: white;
+  -webkit-transition: .50;
+  transition: .50;
+}
+
+.social-icons {
+  float: right;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-icons div {
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  border-radius: 50px;
+  border-width: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.social-icons div:hover {
+  border: 3px solid #e882e8;
+  border-radius: 50px;
+}
+
+.social-icons .fab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.social-icons .fab:hover {
+  color: #e882e8;
+}
+
+@media screen and (max-width: 986px) {
+  h2 {
+    margin: 0 auto;
+  }
+  p {
+    margin: 10px 10px;
+  }
+  .auto {
+    text-align: center;
+  }
+  #icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
